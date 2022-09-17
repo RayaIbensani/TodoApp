@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import TodoForm from "./components/TodoForm";
+import Todo from "./components/Todo";
+// import { initializeConnect } from "react-redux/es/components/connect";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>To Do List</h1>
+        <Todo />
+        <TodoForm />
     </div>
   );
 }
 
 export default App;
+
+// saya memakai framer motion untuk animasinya, saya sekalian belajar mengimplementasikannya 
+// di tugas Todo list ini, berhubung ini tugas coding personal terakhir.
