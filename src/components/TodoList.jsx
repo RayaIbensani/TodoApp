@@ -22,8 +22,8 @@ const TodoItem = (props) => {
   };
   return (
     <motion.li
-      initial={{ x: "150vw", transition: { type: "just", duration: 1 } }}
-      animate={{ x: 0, transition: { type: "just", duration: 1 } }}
+      initial={{ x: "100vw", transition: { type: "just", duration: 0.1 } }}
+      animate={{ x: 80, transition: { type: "just", duration: 1 } }}
       whileHover={{
         scale: 0.9,
         transition: { type: "just", duration: 0.1 },
@@ -64,7 +64,7 @@ const TodoItem = (props) => {
         )}
         <motion.button
           whileHover={{ scale: 1.4 }}
-          whileTap={{ scale: 0.9 }}
+          whileTap={{ scale: 1.9 }}
           style={{ color: "rgb(217, 14, 14)" }}
           onClick={() => hapusTodo(item.id)}
         >

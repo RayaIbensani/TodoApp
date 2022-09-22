@@ -103,8 +103,8 @@ body {
   background: rgb(188, 177, 126);
   background: radial-gradient(
     circle,
-    hsl(349, 70%, 68%) 0%,
-    hsla(0, 53%, 87%, 0.9) 100%
+     hsl(0, 53%, 87%, 0.9) 0%,
+     hsla(349, 70%, 68%) 100%
   );
   margin: 0 1rem 1rem 0;
   height: 8rem;
